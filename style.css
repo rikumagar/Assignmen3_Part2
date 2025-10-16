@@ -1,8 +1,12 @@
-/* General setup */
-
+/* Author: Hrigdev Thapa
+Student ID: 100973032
+Date: 2025-10-15
+Purpose: This code creates a clean, readable homepage for a community college, styling text, links, lists,
+         and navigation so the page looks organized and professional. */
+/* General setup: box-sizing and body width constraints */
 * {
   box-sizing: border-box;
-}
+} 
 
 body {
   margin: 0 auto;
@@ -11,8 +15,7 @@ body {
   max-width: 1400px;
 }
 
-/* Layout */
-
+/* Layout: main grid with 3 columns and gap */
 main {
   display: grid;
   grid-template-columns: 5fr 2fr 2fr;
@@ -20,12 +23,12 @@ main {
   padding: 20px 0;
 }
 
-/* header and footer */
-
+/* Header border */
 header {
   border-bottom: 5px solid #aa6666;
 }
 
+/* Footer border and text alignment */
 footer {
   border-top: 5px solid #aa6666;
 }
@@ -33,3 +36,11 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* TODO: Apply fonts to headings and body */
+
+/* TODO: Add text styling, line-height, letter-spacing, text-indent */
+
+/* TODO: Style links including hover/focus and external icon */
+
+/* TODO: Style lists and navigation menu */
