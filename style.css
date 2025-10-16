@@ -4,15 +4,19 @@ Date: 2025-10-15
 Purpose: This code creates a clean, readable homepage for a community college, styling text, links, lists,
          and navigation so the page looks organized and professional. */
 /* General setup: box-sizing and body width constraints */
+/* General setup: box-sizing and body width constraints */
 * {
   box-sizing: border-box;
-} 
+}
 
 body {
   margin: 0 auto;
   padding: 0 20px;
   min-width: 980px;
   max-width: 1400px;
+
+  /* Font for body text */
+  font-family: Georgia, serif;
 }
 
 /* Layout: main grid with 3 columns and gap */
@@ -37,10 +41,7 @@ footer p {
   text-align: center;
 }
 
-/* TODO: Apply fonts to headings and body */
-
-/* TODO: Add text styling, line-height, letter-spacing, text-indent */
-
-/* TODO: Style links including hover/focus and external icon */
-
-/* TODO: Style lists and navigation menu */
+/* Fonts for headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+}
